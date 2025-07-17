@@ -434,6 +434,137 @@
             color: var(--text-dark);
         }
 
+        /* Products Section */
+.products {
+  padding: 4rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  color: #333;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.product-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.product-image {
+  position: relative;
+  height: 200px;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-image-placeholder {
+  font-size: 3rem;
+  color: #ccc;
+}
+
+.product-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #ff4757;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.product-info {
+  padding: 1.5rem;
+}
+
+.product-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.product-price {
+  margin-bottom: 1rem;
+}
+
+.original {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 0.5rem;
+}
+
+.discounted {
+  font-weight: bold;
+  color: #ff4757;
+  font-size: 1.2rem;
+}
+
+.product-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-features li {
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-size: 0.9rem;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.product-features li::before {
+  content: "•";
+  color: #ff4757;
+  position: absolute;
+  left: 0;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.scale-in {
+  animation: scaleIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
         /* Gallery Section */
         .gallery {
             background: var(--white);
@@ -508,6 +639,7 @@
             font-size: 0.9rem;
             opacity: 0.9;
         }
+        /* Testimonials Section */
         .testimonials-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -896,7 +1028,7 @@
                 <p>Nossa missão é garantir que educadores e servidores públicos tenham acesso à saúde ocular de qualidade, contribuindo para seu bem-estar e qualidade de vida profissional.</p>
             </div>
             <div class="about-image slide-in-right">
-                <img src="https://media.istockphoto.com/id/2118024278/pt/foto/young-woman-doing-optical-exam-at-medical-clinic.jpg?s=1024x1024&w=is&k=20&c=MppVf6wHk-_9qDilXXYuYsXA1umggggqb0wA60jNs8U=" alt="Professora sorrindo com óculos novos" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <img src="https://media.istockphoto.com/id/2118024278/pt/foto/young-woman-doing-optical-exam-at-medical-clinic.webp?a=1&b=1&s=612x612&w=0&k=20&c=jSe30bYe2deSsfR1idXjZJSsm53A6DIb4nswTStVzJc=" alt="Professora sorrindo com óculos novos" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
                 <div class="about-image-placeholder" style="display: none;">
                     <div>
                         <i class="fas fa-users" style="font-size: 3rem; margin-bottom: 1rem;"></i>
@@ -913,7 +1045,7 @@
         <div class="how-it-works-grid">
             <div class="step scale-in">
                 <div class="step-image">
-                    <img src="https://media.istockphoto.com/id/2162035716/pt/foto/an-eye-exam.jpg?s=1024x1024&w=is&k=20&c=fR1nVEXpN5V-AQd3bMesdShbSB0yJkswYv00gDiSYig=" alt="Pessoa agendando consulta pelo telefone" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <img src="https://media.istockphoto.com/id/2162035716/pt/foto/an-eye-exam.webp?a=1&b=1&s=612x612&w=0&k=20&c=Q0EMGW0nqUY3ge4n9RGdqHadeM4IMjFMhBSwbaPYV5o=" alt="Pessoa agendando consulta pelo telefone" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
                     <div class="step-image-placeholder" style="display: none;">
                         <i class="fas fa-calendar-plus"></i>
                     </div>
