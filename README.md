@@ -92,8 +92,3 @@ Licença: [MIT](LICENSE)
 **Enxergar bem é viver melhor. Faça parte desse movimento!**
 
 ```
-
----
-
-Se quiser, posso gerar esse arquivo `.md` pronto para você baixar ou fazer upload direto no seu repositório. Quer que eu gere?
-```
