@@ -5,7 +5,7 @@ Oferece exames oftalmológicos gratuitos e óculos com até 70% de desconto, com
 
 ## 🌐 Demonstração
 
-🔗 [Acesse o site aqui](https://seusite.com) *(substitua pelo seu domínio ou GitHub Pages)*
+🔗 [Acesse o site = https://github.com/marcio-maker/Visao_do_Futuro/blob/main/index.html ]
 
 ## 📋 Sobre o Projeto
 
