@@ -76,7 +76,7 @@ cd visao-do-futuro
 
 ## 🙌 Créditos
 
-* Design e desenvolvimento por [Márcio Maker](https://github.com/seuusuario)
+* Design e desenvolvimento por [Marcio-Maker](https://github.com/seuusuario)
 * Imagens: [Unsplash](https://unsplash.com), [iStock](https://www.istockphoto.com/)
 * Ícones: [Font Awesome](https://fontawesome.com/)
 * Biblioteca 3D: [Three.js](https://threejs.org/)
